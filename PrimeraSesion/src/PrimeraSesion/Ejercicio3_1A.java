@@ -9,6 +9,7 @@ class Ejercicio3_1A {
 
     public static void NumeroPar(int numero1)
     {
+        //determina si el es numero es divisible entre 2
         if (numero1 % 2 == 0)
             System.out.println(numero1 + " es par");
         else
@@ -27,6 +28,7 @@ class Ejercicio3_1A {
         System.out.println("Escriba el numero a evaluar: ");
         numero1 = entrada.nextInt();
 
+        //determina si el numero es par
         NumeroPar(numero1);
     }
 }
